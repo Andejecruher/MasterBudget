@@ -1,0 +1,170 @@
+#btn-login{
+    margin-left: -7%;
+}
+#TotalCurrentAssets{
+    text-align: right;
+}
+#productionBudgetTable{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#dateCompany{
+    width: 100%;
+    margin-top: 2%;
+}
+#dataProduct{
+    width: 100%;
+}
+#addProduction{
+    font-size: 15px;
+    color: white;
+    background-color: #31b0d5;
+    text-align: center;
+}
+#productionDepartmentName{
+    text-align: left;
+}
+.btn-login{
+    width: 0%;
+}
+.xls{
+    width: 35%;
+}
+.storage{
+    width: 35%;
+}
+
+.sidebar-menu > ul > li:hover{
+    width: auto;
+}
+.content-wrapper, .main-footer {
+    -webkit-transition: -webkit-transform .3s ease-in-out,margin .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,margin .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,margin .3s ease-in-out;
+    transition: transform .3s ease-in-out,margin .3s ease-in-out;
+    margin-left: 300px;
+    z-index: 820;
+}
+.add_button, .remove_button{
+    font-size: 1.5em;
+}
+.area, .hour{
+    text-align: center;
+    font-size: 1.3em;
+    border: 3px solid silver;
+}
+.border-silver{
+    border: 3px solid silver;
+}
+.input-icon {
+    position: relative;
+}
+
+.input-icon > i {
+    position: absolute;
+    display: block;
+    transform: translate(0, -50%);
+    top: 50%;
+    pointer-events: none;
+    width: 25px;
+    text-align: center;
+    font-style: normal;
+    opacity: 0.4;
+    padding: 5px;
+}
+.input-icon-right > i {
+    right: 0;
+}
+
+.input-icon-right > input {
+    padding-left: 0;
+    padding-right: 25px;
+    text-align: right;
+}
+.inputNotEdit{
+    border: 0;
+    text-align: right;
+    font-size: 1.1em;
+}
+.inputNotEditSheet{
+    border: 0;
+    text-align: left;
+    font-size: 1.1em;
+}
+.inputNotEditCenter{
+    border: 0;
+    text-align: center;
+    font-size: 1.1em;
+}
+.inputNotEditForecast{
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #00a7d0;
+}
+.inputNotEditSaleForecast{
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 1.1em;
+}
+.inputNotEditSaleForecastRight{
+    border: 1px solid grey;
+    text-align: right;
+    font-size: 1.1em;
+}
+.inputNone{
+    background: none;
+    border: none;
+}
+.updateCompany{
+    padding: 4%;
+    margin-top: 5%;
+}
+.createCostHourOfLabor{
+    margin-bottom: -5%;
+}
+.currentAssets{
+    text-align: right;
+}
+.CurrencyFormat{
+    text-align: right;
+}
+.border-balanceSheet{
+    margin-top: 1%;
+    border-top: 3px solid grey;
+}
+.opc:hover
+{
+    cursor: pointer;
+}
+
+@media  only screen and (max-width: 1024px) {
+    .table {
+        width: 350%;
+        max-width: 500%;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    #masterbudget{
+        font-size:  40px;
+    }
+    .content-wrapper, .main-footer {
+        -webkit-transition: -webkit-transform .3s ease-in-out,margin .3s ease-in-out;
+        -moz-transition: -moz-transform .3s ease-in-out,margin .3s ease-in-out;
+        -o-transition: -o-transform .3s ease-in-out,margin .3s ease-in-out;
+        transition: transform .3s ease-in-out,margin .3s ease-in-out;
+        margin-left: 0px;
+        z-index: 820;
+    }
+
+    .iphone{
+        width: 70%;
+    }
+
+    .table {
+        width: 350%;
+        max-width: 500%;
+        margin-bottom: 20px;
+    }
+}
